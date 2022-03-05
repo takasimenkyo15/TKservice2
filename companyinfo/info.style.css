@@ -1,0 +1,350 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: rgb(94, 190, 245);
+  height: 225px;
+}
+
+#top-a {
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  margin: 40px 40px 0 40px;
+}
+
+.tel-mail {
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+}
+
+.tel-mail p {
+  margin: 0 40px 0 40px;
+  padding-top: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 15px;
+}
+
+.tel-mail a {
+  display: block;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  margin-right: 40px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+/* アイフォン用アイコン */
+.icon-tel-mail {
+  display: none;
+}
+.menu-icon-menu {
+  display: none;
+  background-color:#e1eefc;
+}
+.ifon-menu li {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 7px 0 7px 7px; 
+  width: 100%;
+  display: flex;
+}
+.ifon-menu a {
+  text-decoration: none;
+  color: #3b88d4;
+}
+.ifon-menu ul {
+  list-style:none;
+}
+.icon-right {
+display: inline-block;
+}
+.fa-greater-than {
+  position: relative;
+  left: 100%;
+}
+.ifon-menu li:hover {
+  background-color: blue;
+}
+.ifon-menu a:hover {
+  color:white;
+}
+
+
+.hed-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hed-list li {
+  display: inline-block;
+  margin: 40px 10px 0 10px;
+  
+}
+
+.hed-list li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  text-align: justify;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.hed-list li a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #0000CC;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.hed-list li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.top h2 {
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+  padding-bottom: 10px;
+}
+
+/* アイフォン用アイコン */
+#menu-icon {
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;;
+  text-align: center;
+  font-size: 30px;
+  /* margin-top: 50px; */
+  padding: 0 50%;
+  display: none;
+  cursor: pointer;
+}
+
+#close-icon {
+  color:white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  text-align: center;
+  width: 100%;
+  display: none;
+  padding: 0 50%;;
+  cursor: pointer;
+}
+
+.info {
+  background-image: url(../img/22407508_s.jpg);
+  background-repeat:  no-repeat;            
+  background-position:center center;
+  background-size: 100% 100%;
+  height: 150px;
+}
+
+.info p {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  font-size: 25px;
+  padding-top: 5%;
+}
+
+.kaisha {
+  width: 95%;
+  margin: 30px auto 0 auto;
+  }
+  
+  .kaisha th,
+  .kaisha td {
+  padding: 10px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  table th, table td {
+    border: none;
+  }
+
+  .kaisha tr:nth-child(odd) {  
+    background-color: rgb(192, 226, 247);  
+  }
+  .kaisha  tr:nth-child(even) {  
+    background-color: #e1eef3;  
+  }
+  
+  @media screen and (max-width: 767px) {
+  .kaisha,
+  .kaisha tr,
+  .kaisha td,
+  .kaisha th {display:block;}
+  .kaisha th {width:auto;}
+  }
+
+/* Google Mapを囲う要素 */
+.map {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 75%; /* 比率を4:3に固定 */
+  margin: 50px 20px;
+}
+
+/* Google Mapのiframe */
+.map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.sixchooses {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+
+}
+
+.sixchooses p {
+  margin-top: 120px;
+}
+
+.manter {
+  background-image: url(../img/22196803_m.jpg);
+  background-repeat:  no-repeat;            
+  background-position:center center;
+  background-size: 100% 100%;
+  height: 500px;
+}
+
+.manter p {
+  margin-top: 0px;
+  padding-top: 150px;
+}
+
+.sixchooses button {
+  margin-top: 35px;
+  /* ブラウザ特有のスタイルを無効に */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 8px 30px;
+  font-size: 14px; /* フォントサイズ */
+  background-color: rgba(255,0,0,0);/* 背景色 */
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 10px; /* 角の丸み */
+  border-color: white; 
+  /* box-shadow: 1px 2px 2px #99CCFF; */
+  box-shadow: 0px 0px 5px 3px rgb(21 124 214 / 20%) inset;
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+.sixchooses button:hover {
+  background-color: rgb(0 0 255 / 10%); /* 背景色 */
+}
+
+.footer {
+  background-color: #4c9eeb;
+  display: flex;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 1px; 
+}
+
+.fa-facebook {
+  margin: 50px 0 50px 25px;
+  font-size: 50px;
+  color: white;
+  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.menews {
+  text-align: center;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-right {
+  width: 50%;
+  text-align: center;
+}
+
+/* .footer-left a:hover {
+  background-color: rgb(0 0 255 / 10%);
+} */
+
+.footer-right p {
+  font-size: 20px;
+  color: white;
+  margin: 60px 0;
+}
+
+.adres p {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.copy {
+  background-color: #4c9eeb;
+  text-align: center;
+}
+
+.menews a {
+  text-decoration: none;
+  color: black;
+}
+
+.menews a:hover {
+  text-decoration: underline;
+}
+
+#pagetop{
+  position:fixed;
+  right:20px;
+  bottom: 10px;
+  cursor:pointer;
+  font-size: 45px;
+}
+
+.fa-long-arrow-alt-up {
+  border-style: solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-color: #3976f0;
+  background-color: #3976f0;
+  color: white;
+}
+

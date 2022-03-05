@@ -1,0 +1,536 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.top {
+  background-color: rgb(94, 190, 245);
+  height: 225px;
+}
+
+#top-a {
+  text-decoration: none;
+  float: left;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  margin: 40px 40px 0 40px;
+}
+
+.tel-mail {
+  display: block;
+  font-size: 20px;
+  text-align: right;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+}
+
+.tel-mail p {
+  margin: 0 40px 0 40px;
+  padding-top: 20px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  padding-bottom: 15px;
+}
+
+.tel-mail a {
+  display: block;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  margin-right: 40px;
+  margin-top: 15px;
+  text-decoration: none;
+}
+
+/* アイフォン用アイコン */
+.icon-tel-mail {
+  display: none;
+}
+.menu-icon-menu {
+  display: none;
+  background-color:#e1eefc;
+}
+.ifon-menu li {
+  border-bottom: solid;
+  border-width: 1px;
+  border-color: white;
+  padding: 7px 0 7px 7px; 
+  width: 100%;
+  display: flex;
+}
+.ifon-menu a {
+  text-decoration: none;
+  color: #3b88d4;
+}
+.ifon-menu ul {
+  list-style:none;
+}
+.icon-right {
+display: inline-block;
+}
+.fa-greater-than {
+  position: relative;
+  left: 100%;
+}
+.ifon-menu li:hover {
+  background-color: blue;
+}
+.ifon-menu a:hover {
+  color:white;
+}
+
+
+.hed-list ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.hed-list li {
+  display: inline-block;
+  margin: 40px 10px 0 10px;
+  
+}
+
+.hed-list li a {
+  text-decoration: none;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  text-align: justify;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+
+
+.hed-list li a::after {
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #0000CC;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s;
+}
+.hed-list li a:hover::after {
+  bottom: -4px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.top h2 {
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 90px;
+  padding-bottom: 10px;
+}
+
+/* アイフォン用アイコン */
+#menu-icon {
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;;
+  text-align: center;
+  font-size: 30px;
+  /* margin-top: 50px; */
+  padding: 0 50%;
+  display: none;
+  cursor: pointer;
+}
+
+#close-icon {
+  color:white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  text-align: center;
+  width: 100%;
+  display: none;
+  padding: 0 50%;;
+  cursor: pointer;
+}
+
+.info {
+  background-image: url(../img/22407508_s.jpg);
+  background-repeat:  no-repeat;            
+  background-position:center center;
+  background-size: 100% 100%;
+  height: 150px;
+}
+
+.info p {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  font-size: 25px;
+  padding-top: 5%;
+}
+
+
+.eria {
+  margin: 30px 30px 10px 30px;
+}
+
+.img {
+  width:100%;
+}
+
+
+.eria-text h2 {
+  text-align: center;
+  color: black;
+  text-shadow: none;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.eria-text p {
+  margin: 0 30px 0 30px;
+}
+
+.eria-imgs {
+  display:flex;
+  justify-content: center; 
+  height: 280px;
+  margin: 10px auto;
+}
+
+.eria-ima {
+  width: 33%;
+}
+
+.bisineces h2 {
+  color: black;
+  text-shadow: none;
+  font-size: 25px;
+  /* margin-bottom: 25px; */
+}
+
+.bisineces img {
+  width: 100%;
+  height: 350px;
+}
+.right {
+  display: flex;
+  justify-content: center; 
+}
+.right-img {
+  margin-right: 80px;
+  position: relative;
+}
+#namuber {
+position: relative;
+top: 25px;
+right: 25px;
+}
+.right-img p {
+  color: rgb(94, 190, 245);
+  font-size: 40px;
+  font-weight: 900;
+  text-shadow:rgb(178, 217, 240);
+}
+.right-text {
+  width: 40%;
+}
+.right-text h4 {
+  background-color:rgb(94, 190, 245);
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top:50px;
+}
+.right-text p {
+  margin-bottom: 20px;
+}
+.right-botton {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 8px 30px;/* 塗りの余白 */
+  font-size: 14px; /* フォントサイズ */
+  background-color: rgba(255,0,0,0);/* 背景色 */
+  color: rgb(69, 180, 245); /* テキストカラー */
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 10px; /* 角の丸み */
+  border-color: rgb(54, 175, 245); 
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+  display: inline-block;
+}
+.right-botton:hover {
+  background-color: rgb(219, 237, 248); /* 背景色 */
+}
+
+.sixchooses {
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.sixchooses p {
+  margin-top: 120px;
+}
+
+.manter {
+  background-image: url(../img/22196803_m.jpg);
+  background-repeat:  no-repeat;            
+  background-position:center center;
+  background-size: 100% 100%;
+  height: 500px;
+}
+
+.manter p {
+  margin-top: 0px;
+  padding-top: 150px;
+}
+
+.sixchooses button {
+  margin-top: 35px;
+  /* ブラウザ特有のスタイルを無効に */
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 8px 30px;
+  font-size: 14px; /* フォントサイズ */
+  background-color: rgba(255,0,0,0);/* 背景色 */
+  color: white;
+  text-shadow: 1px 2px 2px #99CCFF;
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 10px; /* 角の丸み */
+  border-color: white; 
+  /* box-shadow: 1px 2px 2px #99CCFF; */
+  box-shadow: 0px 0px 5px 3px rgb(21 124 214 / 20%) inset;
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+
+/* ホバー時（カーソルをのせた時）の見た目 */
+.sixchooses button:hover {
+  background-color: rgb(0 0 255 / 10%); /* 背景色 */
+}
+
+.footer {
+  background-color: #4c9eeb;
+  display: flex;
+  border-bottom: solid;
+  border-color: white;
+  border-width: 1px; 
+}
+
+.fa-facebook {
+  margin: 50px 0 50px 25px;
+  font-size: 50px;
+  color: white;
+  border-radius: 10px;
+  border-radius: 8px;
+}
+
+.menews {
+  text-align: center;
+}
+
+.footer-left {
+  width: 50%;
+}
+
+.footer-right {
+  width: 50%;
+  text-align: center;
+}
+
+.footer-right p {
+  font-size: 20px;
+  color: white;
+  margin: 60px 0;
+}
+
+.adres p {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.copy {
+  background-color: #4c9eeb;
+  text-align: center;
+}
+
+.menews a {
+  text-decoration: none;
+  color: black;
+}
+
+.menews a:hover {
+  text-decoration: underline;
+}
+
+#pagetop{
+  position:fixed;
+  right:20px;
+  bottom: 10px;
+  cursor:pointer;
+  font-size: 45px;
+}
+
+.fa-long-arrow-alt-up {
+  border-style: solid;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border-color: #3976f0;
+  background-color: #3976f0;
+  color: white;
+}
+
+
+
+/* case.css */
+.today {
+  /* height: 100%; */
+  margin: 50px 30px 0 30px;
+}
+
+.today h3 {
+  font-size: 17px;
+  background-color:#81bcf7;
+  color: white;
+  margin: 10px 0 0 0;
+  width: 100%;
+  padding: 5px;
+}
+
+.today img {
+  width: 100%;
+}
+
+.today p {
+  line-height: 40px;
+}
+
+.today span {
+  font-weight: 800;
+}
+
+
+
+/* menter.css */
+.menter-img {
+  width: 80%;
+}
+
+.menter-img img {
+  height: 400px;
+  margin: 30px 15%;
+  width: 100%;
+}
+
+#menter-h3 {
+  font-size: 20px;
+  color: black;
+  text-shadow: none;
+  margin: 5px 15% 0 15%;
+  width: 100%;
+  text-align: center;
+}
+
+.menter-img p {
+  margin-left: 40px;
+  line-height: 45px;
+  font-size: 15px;
+  width: 100%;
+  margin: 0 15%;
+}
+
+#menter-img-p {
+  background-color:#4c9eeb;
+  color: white;
+  text-align: center;
+  margin: 30px 15% 0 15%;
+}
+
+.my-skyblue {
+  color: #4c9eeb;
+  line-height: 0 !important;
+  text-align: center;
+  margin: 0 15%;
+  width: 100%;
+}
+
+.three-exanple {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  margin: 0 15%;
+}
+.one-exanple {
+  border-style: double;
+  padding: 12px;
+  border-radius: 10px;
+  border-color: #81bcf7;
+  color:rgb(69, 180, 245);
+}
+
+#flow-p {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 800;
+  margin-top: 40px;
+}
+
+.flows-button {
+  background-color:rgb(219, 237, 248);
+  width: 75%;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.flows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flow {
+  text-align: center;
+  margin: 5%;
+  margin-bottom: 3%;
+}
+
+.my-orange {
+  color: #4c9eeb;
+}
+
+.flow h5 {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.button-flows {
+  display: inline-block;
+  margin-bottom: 5%;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  padding: 8px 30px;/* 塗りの余白 */
+  font-size: 14px; /* フォントサイズ */
+  background-color: rgba(255,0,0,0);/* 背景色 */
+  color: #0000CC; /* テキストカラー */
+  cursor: pointer; /* カーソルを指マークに */
+  border-radius: 10px; /* 角の丸み */
+  border-color: #0000CC; 
+  transition: 0.3s; /* ホバーの変化を滑らかに */
+}
+.flows-button button:hover {
+  background-color: #b7cef8; /* 背景色 */
+}
+
+
+/* inquiry.html */
+.google-from {
+  width: 100%;
+  text-align: center;
+}
