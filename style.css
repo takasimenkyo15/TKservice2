@@ -105,10 +105,12 @@ display: inline-block;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* vertical-align: middle; */
 }
 
 .hed-list li {
   display: inline-block;
+  
   margin: 40px 10px 0 10px;
   
 }
@@ -146,9 +148,9 @@ display: inline-block;
 .hed h2 {
   color: white;
   text-shadow: 1px 2px 2px #99CCFF;;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 85px;
   padding-bottom: 10px;
 }
 
@@ -250,17 +252,18 @@ display: inline-block;
    /* marigin: 5px;前後の隙間 */
   padding: 8px 50px;/* 塗りの余白 */
   font-size: 14px; /* フォントサイズ */
+  font-weight: 600;
   background-color: rgba(255,0,0,0);/* 背景色 */
-  color: #0000CC; /* テキストカラー */
+  color: #247CD6; /* テキストカラー */
   cursor: pointer; /* カーソルを指マークに */
   border-radius: 10px; /* 角の丸み */
-  border-color: #0000CC; 
+  border-color: #247CD6; 
   transition: 0.3s; /* ホバーの変化を滑らかに */
 }
 
 /* ホバー時（カーソルをのせた時）の見た目 */
 .news button:hover {
-  background-color: #064fda; /* 背景色 */
+  background-color: #C0DFF8; /* 背景色 */
 }
 
 .works {
@@ -302,17 +305,18 @@ color: black;
   /* padding: 0.6em 45px; 塗りの余白 */ 
   padding: 8px 50px;
   font-size: 14px; /* フォントサイズ */
+  font-weight: 600;
   background-color: rgba(255,0,0,0);/* 背景色 */
-  color: #0000CC; /* テキストカラー */
+  color: #247CD6; /* テキストカラー */
   cursor: pointer; /* カーソルを指マークに */
   border-radius: 10px; /* 角の丸み */
-  border-color: #0000CC; 
+  border-color: #247CD6; 
   transition: 0.3s; /* ホバーの変化を滑らかに */
 }
 
 /* ホバー時（カーソルをのせた時）の見た目 */
 .works button:hover {
-  background-color: #064fda; /* 背景色 */
+  background-color: #C0DFF8; /* 背景色 */
 }
 
 .news-works {
@@ -334,7 +338,7 @@ color: black;
 }
 
 .right {
-  height: 310px;
+  height: 320px;
   width: 50%;
   margin-right: 5px;
   margin-bottom: 5px;
@@ -367,7 +371,7 @@ color: black;
 
 
 .water {
-  height: 310px;
+  height: 320px;
   width: 50%;
   margin-top: 50px;
   position: relative;
@@ -505,6 +509,7 @@ color: black;
   position: relative;
   height: 510px;
   margin-top: 5px;
+  margin-bottom: 150px;
 }
 
 .manter img {

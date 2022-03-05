@@ -10,6 +10,34 @@
   .water {
     height: 210px;
   }
+
+  .repaer {
+    height: 210px;
+  }
+
+  .sun {
+    height: 210px;
+  }
+
+  .ear {
+    height: 210px;
+  }
+
+  .manter {
+    height: 360px;
+  }
+
+  /* .right-button {
+    padding: 8px 30px;
+  } */
+  .repaer button {
+    position: absolute;
+    top: 63%;
+    left: 49%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
 }
 
 @media(max-width: 1200px) {
@@ -45,7 +73,7 @@
 }
 
 .hed h2 {
-  margin-top: 50px;
+  margin-top: 28px;
   font-size: 25px;
 }
 
@@ -62,16 +90,71 @@
 }
 
 .right {
-  height: 145px;
+  height: 140px;
 }
 
 .water {
-  height: 145px;
+  height: 140px;
+}
+
+.repaer {
+  height: 140px;
+}
+
+.sun {
+  height: 140px;
+}
+
+.ear {
+  height: 140px;
+}
+
+.manter {
+  height: 265px;
 }
 
 }
 
 @media(max-width: 770px) {
+  .hed {
+    height: 480px;
+  }
+
+  .hed h2 {
+    margin-top: 110px;
+    font-size: 23px;
+  }
+
+  .hed-flex {
+    display: none;
+  }
+  
+  .icon-tel-mail {
+    display: flex;
+    font-size: 20px;
+    color: white;
+    text-shadow: 1px 2px 2px #99CCFF;
+  }
+  
+  .icon-tel-mail p {
+    padding-left: 47%;
+    padding-right: 9%;
+    padding-bottom: 15px;
+    padding-top: 25px;
+  }
+  
+  .icon-tel-mail a {
+    color: white;
+    text-shadow: 1px 2px 2px #99CCFF;
+    padding-top: 25px;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    margin-top: 0;
+  }
+  
+  
   .body h5 {
     font-size: 17px;
   }
@@ -90,24 +173,66 @@
   .right {
     width: 100%;
     margin-top: 30px;
-    margin-bottom: 0px;
+    height: 150px;
+    margin-bottom: 5px;
   }
   .right img{
     width: 100%;
-    height: 150px;
+    /* height: 150px; */
     object-fit: cover;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .water {
     width: 100%;
     height: 150px;
-    margin-top: 0px;
-    margin-bottom: 5px;
+    margin-top: 5px;
+    
   }
   .water img {
     margin-top: 0;
     object-fit: cover;
+    margin-bottom: 5px;
+  }
+
+  .threes {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .repaer {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+  }
+  .repaer img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .sun {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 5px;
+  }
+  .sun img{
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+
+  .ear {
+    width: 100%;
+    height: 150px;
+  }
+  .ear img{
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .manter {
+    height: 238px;
   }
 
   .sixchooses button {
@@ -156,9 +281,6 @@
 
 /* スマートフォン向けレイアウト */
 @media all and (max-width: 599px) {
-  /* * {
-    box-sizing: content-box;
-  } */
 
   #top-a {
   font-size: 20px;
@@ -173,36 +295,34 @@
   font-size:20px;
 }
 
-.hed-flex {
+/* .hed-flex {
   display: none;
 }
 
 .icon-tel-mail {
   display: flex;
-  /* justify-content: space-between; */
   font-size: 20px;
-  /* text-align: right; */
   color: white;
-  text-shadow: 1px 2px 2px #99CCFF;
-}
+  text-shadow: 1px 2px 2px #99CCFF; */
+/* } */
 
 .icon-tel-mail p {
   padding-left: 40%;
-  padding-right: 9%;
+  /* padding-right: 9%;
   padding-bottom: 15px;
-  padding-top: 25px;
+  padding-top: 25px; */
 }
 
-.icon-tel-mail a {
+/* .icon-tel-mail a {
   color: white;
   text-shadow: 1px 2px 2px #99CCFF;
   padding-top: 25px;
   text-decoration: none;
-}
+} */
 
-.menu-icon {
+/* .menu-icon {
   margin-top: 0;
-}
+} */
 
 /* .hed-list {
   display: none;
