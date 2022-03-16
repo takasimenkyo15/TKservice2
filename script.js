@@ -15,14 +15,20 @@ $(window).scroll(function() {
 });
 });
 
+// $('.menu-icon').click(function() {
+//   $('.menu-icon-menu').fadeIn();
+//   $('.close-icon').fadeIn();
+//   $('.menu-icon').fadeOut();
+// });
+
 $('.menu-icon').click(function() {
-  $('.menu-icon-menu').fadeIn();
+  $('.menu-icon-menu').slideDown();
   $('.close-icon').fadeIn();
   $('.menu-icon').fadeOut();
 });
 
 $('.close-icon').click(function() {
-  $('.menu-icon-menu').fadeOut();
+  $('.menu-icon-menu').slideUp();
   $('.close-icon').fadeOut();
   $('.menu-icon').fadeIn();
 });
