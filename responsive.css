@@ -629,8 +629,27 @@ width: 100%;
   font-size:20px;
 }
 
+.icon-tel-mail {
+  justify-content: space-between;
+}
+
 .icon-tel-mail p {
-  padding-left: 40%;
+  padding: 0;
+  position: relative;
+  top: 25px;
+  left: 17%;
+}
+
+.icon-tel-mail a {
+ position: relative;
+ right: 5%
+}
+
+.icon-tel-mail h3 {
+  position: relative;
+  margin: 0;
+  top: 25px;
+  left: 15%;
 }
 
 .body-top {
