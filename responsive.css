@@ -1,10 +1,19 @@
 @media(max-width: 1400px) {
+
+  .hed h1 {
+    left: 4%;
+  }
+
 .footer-left {
   margin-left: 90px;
 }
 
 .footer-right > p {
   padding-right: 70px;
+}
+
+.footer-right > img {
+  right: 50px;
 }
 
 .adres {
@@ -17,15 +26,12 @@
 
 
 @media(max-width: 1300px) {
-  /* .sixchooses p {
-    margin-top: 50px;
-  } */
+ 
 
-  .hed h1 {
-    margin-top: 15px;
-    margin-left: 90px;
-    font-size: 18px;
-  }
+.hed h1 {
+  left: 1%;
+ }
+
 
 .hed-list {
   padding: 0 7%;
@@ -130,7 +136,7 @@
   }
 
   .footer-left {
-    margin-left: 55px;
+    margin-left: 40px;
     margin-top: 45px;
   }
 
@@ -139,12 +145,20 @@
     font-size: 19px;
   }
 
+  .footer-right > img {
+    right: 15px;
+  }
+
   .adres {
     padding-right: 50px;
   }
 
+  .adres p {
+    left: 10px;
+  }
+
   .menews {
-    padding: 47px 80px 0px 22px;
+    padding: 50px 80px 30px 32px;
   }
 
   .copy {
@@ -156,6 +170,10 @@
 @media(max-width: 1200px) {
  .hed {
    height: 480px;
+ }
+
+ .hed h1 {
+  left: 2%;
  }
 
  .hed h2 {
@@ -191,11 +209,20 @@
 }
 
 .menews {
-  padding: 47px 50px 0px 5px;
+  padding-right: 50px;
+  padding-left: 5px;
 }
 
 .footer-left {
   margin-left: 45px;
+}
+
+.footer-right > img {
+  right: 23px;
+}
+
+.adres p {
+  left: 0;
 }
 
 .copy {
@@ -222,10 +249,6 @@
 @media(max-width: 1020px) {
  .hed {
     height: 375px;
- }
-
- .hed h1 {
-   margin-top: 20px;
  }
 
  .hed-list {
@@ -408,12 +431,17 @@ left: 50%;
 
 .menews {
   font-size: 13.5px;
-  padding: 43px 30px 0px 20px;
+  padding: 43px 50px 22px 20px;
 }
 
 .footer-left {
   margin-left: 35px;
-  margin-top: 40px;
+  margin-top: 38px;
+}
+
+.footer-right > img {
+  top: 40px;
+  right: 19px;
 }
 
 .footer-right > p {
@@ -422,12 +450,12 @@ left: 50%;
 }
 
 .adres {
-  margin-bottom: 25px;
   padding-right: 40px;
 }
 
 .adres p {
-  font-size: 14px;
+  font-size: 13.5px;
+  top: 70px;
 }
 
 }
@@ -455,10 +483,12 @@ left: 50%;
 
 @media(max-width: 800px) {
   .tel-mail p {
-    /* padding: 0 0 0 100px;
-    margin-left: 0; */
     padding-right: 70px;
     padding-left: 40px;
+  }
+
+  .menews {
+    padding: 43px 40px 22px 10px;
   }
   }
 
@@ -468,8 +498,16 @@ left: 50%;
   }
 
   .hed h2 {
-    margin-top: 115px;
+    margin-top: 110px;
     font-size: 22px;
+  }
+
+  .icon-tel-mail > img {
+    width: 175px;
+    height: 100%;
+    position: relative;
+    top: 20px;
+    left: 15px;
   }
 
   .icon-tel-mail h3 {
@@ -486,27 +524,29 @@ left: 50%;
   
   .icon-tel-mail {
     display: flex;
+    justify-content: space-between;
     font-size: 20px;
     color: white;
     text-shadow: 1px 2px 2px #99CCFF;
   }
   
   .icon-tel-mail p {
-    padding-left: 47%;
-    padding-right: 12%;
-    padding-bottom: 15px;
-    padding-top: 25px;
+    position: relative;
+    top: 25px;
+    left: 15%;
   }
   
   .icon-tel-mail a {
     color: white;
     text-shadow: 1px 2px 2px #99CCFF;
-    padding-top: 25px;
+    position: relative;
+    top: 25px;
+    right: 50px;
     text-decoration: none;
   }
   
   .menu-icon {
-    margin-top: 0;
+    margin-top: 40px;
   }
   
   
@@ -679,6 +719,7 @@ width: 100%;
 
 .footer-right {
   width: 100%;
+  height: 157px;
 }
 
 .menews {
@@ -694,6 +735,11 @@ width: 100%;
   text-align: center;
 }
 
+.footer-right > img {
+  top: 27px;
+  right: 0;
+}
+
 .footer-right > p {
   margin: 25px 0 15px 0;
   padding-left: 60px;
@@ -705,8 +751,7 @@ width: 100%;
 }
 
 .adres p {
-  padding-bottom: 25px;
-  font-size: 13.5px;
+ top: 30px;
 }
 }
 
@@ -741,10 +786,7 @@ width: 100%;
 }
 
 .icon-tel-mail p {
-  padding: 0;
-  position: relative;
-  top: 25px;
-  left: 19%;
+  left: 12%;
 }
 
 .icon-tel-mail a {
@@ -757,10 +799,6 @@ width: 100%;
   margin: 0;
   top: 25px;
   left: 13%;
-}
-
-.menu-icon {
-  padding-top: 10px;
 }
 
 .body-top {
@@ -937,7 +975,16 @@ width: 100%;
 .my-orange {
   margin-top: 15px
 }
+}
 
+@media all and (max-width: 500px) {
+.icon-tel-mail > img {
+  left: 10px;
+}
+
+.icon-tel-mail a {
+  right: 30px;
+}
 
 }
 
@@ -952,31 +999,28 @@ width: 100%;
   font-size: 20px;
 }
 
-  .icon-tel-mail h3 {
-    font-size: 12px;
-    left: 12%;
-  }
+.icon-tel-mail > img {
+  width: 120px;
+  top: 25px;
+  left: 7px;
+}
 
-  .menu-icon {
-    padding-top: 10px;
-  }
+.body-top p {
+font-size: 16px;
+}
 
-  .body-top p {
-    font-size: 16px;
-  }
+.body-top {
+margin: 0 7px;
+}
 
-  .body-top {
-    margin: 0 7px;
-  }
+.news h3 {
+font-size: 20px;
+margin-bottom: 10px;
+}
 
-  .news h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-
-  .news p {
-    font-size: 13px;
-  }
+.news p {
+font-size: 13px;
+}
 
   .news a {
     font-size: 13px;
@@ -1059,6 +1103,10 @@ padding-top: 22px;
 .copy p {
   font-size: 11px;
   padding-top: 10px;
+}
+
+.footer-right {
+  height: 152px;
 }
 
 }

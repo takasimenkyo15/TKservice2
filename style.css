@@ -18,11 +18,15 @@
 }
 
 .hed h1 {
-  /* float: left; */
-  font-size: 20px;
   color: white;
-  text-shadow: 0 0 5px #5ea9f5;
-  margin: 25px 0 0 140px;
+  position: relative;
+  top: 20px;
+  left: 7%;
+  /* margin: 35px 0 0 110px; */
+}
+
+.hed-img {
+  width: 180px;
 }
 
 .tel-mail {
@@ -621,13 +625,20 @@ color: black;
 .footer-left {
   width: 50%;
   margin-left: 130px;
-  margin-top: 50px;
+  margin-top: 53px;
   /* position: relative; */
 }
 
 .footer-right {
   width: 50%;
   text-align: center;
+}
+
+.footer-right > img {
+position: relative;
+top: 48px;
+right: 87px;
+width: 175px;
 }
 
 .footer-icon {
@@ -652,6 +663,8 @@ right: 100%; */
 }
 
 .adres p {
+  position: relative;
+  top: 82px;
   color: black;
   font-size: 16px;
 }
@@ -677,7 +690,7 @@ right: 100%; */
 }
 
 .menews {
-  padding: 43px 110px 0px 30px;
+  padding: 43px 110px 30px 30px;
 }
 
 .menews a {
