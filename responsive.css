@@ -1,3 +1,21 @@
+@media(max-width: 1400px) {
+.footer-left {
+  margin-left: 90px;
+}
+
+.footer-right > p {
+  padding-right: 70px;
+}
+
+.adres {
+  padding-right: 110px;
+}
+
+}
+
+
+
+
 @media(max-width: 1300px) {
   /* .sixchooses p {
     margin-top: 50px;
@@ -9,8 +27,24 @@
     font-size: 18px;
   }
 
+.hed-list {
+  padding: 0 7%;
+}
+
+  .hed-list ul {
+    padding: 0;
+  }
+
+  .tel-mail {
+    margin:15px 10px 0 5%;
+  }
+
+  .tel-mail p {
+    padding-bottom: 7px;
+  }
+
   .body-top {
-    margin: 0 24px;
+    margin: 0 10px;
   }
 
   .body-top p {
@@ -18,12 +52,17 @@
    }
 
    .news {
-    margin: 0 40px 0 50px;
-    padding-right: 55px;
+    margin: 0 40px 0 35px;
+    padding-right: 0;
+    width: 50%;
   }
 
   .news-a {
     padding-bottom: 15px;
+  }
+
+  .works {
+    margin: 0 40px 0 20px;
   }
   
   .right {
@@ -119,6 +158,10 @@
    height: 480px;
  }
 
+ .hed h2 {
+  margin-top: 90px;
+}
+
  .tel-mail {
   margin: 25px 2% 0 2%;
 }
@@ -134,9 +177,17 @@
   font-weight: 550;
   text-align: center;
 }
+
+.body-top {
+  margin: 0 25px;
+}
  
  .news {
   margin: 0 40px 0 4%;
+}
+
+.works {
+  margin: 0 40px 0 0;
 }
 
 .menews {
@@ -151,6 +202,22 @@
   margin: 0;
 }
 }
+
+@media(max-width: 1100px) {
+
+
+
+  .tel-mail p {
+  padding-left: 45px;
+  margin-left: 50px;
+  
+}
+
+.tel-mail a {
+  font-size: 22px;
+}
+}
+
 
 @media(max-width: 1020px) {
  .hed {
@@ -364,6 +431,36 @@ left: 50%;
 }
 
 }
+
+@media(max-width: 1000px) {
+  .tel-mail p {
+    padding-left: 100px;
+  }
+  
+  .tel-mail a {
+    margin-left: 55px;
+    font-size: 21px;
+  }
+  
+  .hed h2 {
+    margin-top: 35px;
+  }
+  }
+  
+  @media(max-width: 900px) {
+.tel-mail p {
+  padding-left: 60px;
+}
+}
+
+@media(max-width: 800px) {
+  .tel-mail p {
+    /* padding: 0 0 0 100px;
+    margin-left: 0; */
+    padding-right: 70px;
+    padding-left: 40px;
+  }
+  }
 
 @media(max-width: 770px) {
   .hed {
@@ -611,11 +708,21 @@ width: 100%;
   padding-bottom: 25px;
   font-size: 13.5px;
 }
+}
+
+@media all and (max-width: 700px) {
+.body-top {
+  margin: 0 15px;
+}
+.news-a {
+  padding-bottom: 13px;
+}
 
 }
 
+
 /* スマートフォン向けレイアウト */
-@media all and (max-width: 599px) {
+@media all and (max-width: 600px) {
 
   #top-a {
   font-size: 20px;
@@ -637,19 +744,23 @@ width: 100%;
   padding: 0;
   position: relative;
   top: 25px;
-  left: 17%;
+  left: 19%;
 }
 
 .icon-tel-mail a {
  position: relative;
- right: 5%
+ right: 8%
 }
 
 .icon-tel-mail h3 {
   position: relative;
   margin: 0;
   top: 25px;
-  left: 15%;
+  left: 13%;
+}
+
+.menu-icon {
+  padding-top: 10px;
 }
 
 .body-top {
@@ -828,11 +939,126 @@ width: 100%;
 }
 
 
+}
+
+@media all and (max-width: 400px) {
+
+  .hed {
+    height: 340px;
+  }
+
+  .hed h2  {
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+  .icon-tel-mail h3 {
+    font-size: 12px;
+    left: 12%;
+  }
+
+  .menu-icon {
+    padding-top: 10px;
+  }
+
+  .body-top p {
+    font-size: 16px;
+  }
+
+  .body-top {
+    margin: 0 7px;
+  }
+
+  .news h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .news p {
+    font-size: 13px;
+  }
+
+  .news a {
+    font-size: 13px;
+  }
+.button button {
+  padding: 6px 67px;
+  font-size: 13px;
+}
+
+.works {
+  padding: 0 7px;
+}
+
+.works h3 {
+  margin-top: 37px;
+  font-size: 20px;
+}
+
+.works p {
+  font-size: 13px;
+}
+
+.works a {
+  font-size: 13px;
+}
+
+.sixchooses p {
+  font-size: 16.5px;
+}
+
+.sixchooses a {
+  font-size: 12.5px;
+}
+
+.right img {
+  height: 145px;
+}
+
+.water {
+  height: 145px;
+}
+
+.repaer {
+  height: 145px;
+}
+
+.sun {
+  height: 145px;
+}
+
+.ear {
+  height: 145px;
+}
+
+.menter {
+  height: 247px;
+}
 
 
+.footer-left {
+padding-top: 22px;
+}
 
+.menews {
+  padding: 8px 30px 0 30px;
+}
 
+.menews a {
+  font-size: 12px;
+}
 
+.adres p {
+  font-size: 13px;
+}
 
+.copy {
+  height: 40px;
+}
+
+.copy p {
+  font-size: 11px;
+  padding-top: 10px;
+}
 
 }

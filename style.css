@@ -126,6 +126,8 @@
 
 
 .hed-list ul {
+  padding: 0 2%;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -172,7 +174,7 @@
 .hed h2 {
   color: white;
   text-shadow: 0 0 5px #5ea9f5;
-  font-size: 28px;
+  font-size: 30px;
   text-align: center;
   margin-top: 170px;
   padding-bottom: 10px;
@@ -223,9 +225,9 @@
 .news {
   display: flex;
   flex-flow: column;
-  width: 50%;
-  margin: 0 0 0 105px;
-  padding-right: 55px;
+  width: 40%;
+  margin: 0 0 0 135px;
+  padding-right: 20px;
 }
 
 .news-a {
@@ -301,7 +303,7 @@
   display: flex;
   flex-flow: column;
   width: 50%;
-  margin: 0 40px 0 0;
+  margin: 0 40px 0 90px;
 }
 
 .works h3 {
@@ -618,7 +620,7 @@ color: black;
 
 .footer-left {
   width: 50%;
-  margin-left: 110px;
+  margin-left: 130px;
   margin-top: 50px;
   /* position: relative; */
 }
@@ -640,13 +642,13 @@ right: 100%; */
   font-size: 20px;
   color: white;
   margin: 50px 0 40px 0;
-  padding-right: 70px;
+  padding-right: 110px;
   font-weight: 550;
 }
 
 .adres {
   margin-bottom: 30px;
-  padding-right: 130px;
+  padding-right: 170px;
 }
 
 .adres p {
